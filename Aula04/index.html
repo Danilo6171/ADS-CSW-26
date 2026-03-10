@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula04</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <h4>Na frase temos uma <b>parte do texto em negrito</b> usando a tag B(não semântica)</h4>
+    <h4>Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag B(com semântica)</h4>
+    <br>
+    <h2> Itálico/ Ênfase</h2>
+    <h4>Na frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</h4>
+    <h4>Na frase vamos entrar com uma palavra em <em>itálico</em> usando a tag EM (com semântica)</h4>
+    <br>
+    <h2> Texto Marcador</h2>
+    <h4> Aqui vamos usar um texto com destaque <mark class="blue"> de marcador de texto</mark> usando o Mark</h4>
+    <h4> Aqui vamos usar um texto com destaque <mark class="red"> de marcador de texto</mark> usando o mark</h4>
+    <br>
+    <h2> Texto Grande e Texto Pequeno </h2>
+    <h3> Estamos trabalhando com um texto <big>Grande</big> e um texto <small>Pequeno</small> na frase</h3>
+    <br>
+    <h2> Texto Deletado </h2>
+    <h4> Neste paragrafo vamos trabalhar com um texto <del>que foi excluido</del> da frase</h4>
+    <br>
+    <h2>Texto inserido</h2>
+    <h4>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma semantica</h4>
+    <h4>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semantica</h4>
+    <br>
+    <h2>Texto sobrescrito</h2>
+    <h4> Vamos demostrar uma formula da equação do segundo grau ax<sup>2</sup>+ bx + c = 0</h4>
+    <br>
+    <h2> Texto subescrito </h2>
+    <h4> Vamos demostrar uma formula da equação de segundo grau H<sub>2</sub>O</h4>
+    <code>
+    <pre>
+        import math
+
+# Entrada dos valores
+a = float(input("Digite o valor de a: "))
+b = float(input("Digite o valor de b: "))
+c = float(input("Digite o valor de c: "))
+
+# Cálculo do delta
+delta = b**2 - 4*a*c
+
+# Verificação das raízes
+if delta > 0:
+    x1 = (-b + math.sqrt(delta)) / (2*a)
+    x2 = (-b - math.sqrt(delta)) / (2*a)
+    print("Duas raízes reais:")
+    print("x1 =", x1)
+    print("x2 =", x2)
+
+elif delta == 0:
+    x = -b / (2*a)
+    print("Uma raiz real:")
+    print("x =", x)
+
+else:
+    print("Não existem raízes reais.") </pre>
+</code>
+
+</body>
+</html>
