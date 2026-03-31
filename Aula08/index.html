@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Mídias</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        section{
+            margin: 30px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        a{
+            display: block;
+            margin: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 id="topo">Página de Mídias</h1>
+
+<section>
+    <h2>Vídeo Local</h2>
+
+    <video width="200" poster="thumb.jpg" controls autoplay>
+        <source src="feijao.mp4" type="video/mp4">
+    </video>
+
+</section>
+
+<section>
+    <h2>Áudio Local</h2>
+    <audio controls autoplay loop>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+</section>
+
+<section>
+    <h2>Links rápidos</h2>
+    <a href="#youtube">Ir para vídeos do YouTube</a>
+    <a href="#vimeo">Ir para vídeos do Vimeo</a>
+</section>
+
+<section id="youtube">
+    <img src="youtube.png" width="200">
+    <h2>3 Vídeos do YouTube</h2>
+
+    <iframe width="400" height="250"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    allowfullscreen></iframe>
+
+    <br><br>
+
+    <iframe width="400" height="250"
+    src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
+    allowfullscreen></iframe>
+
+    <br><br>
+
+    <iframe width="400" height="250"
+    src="https://www.youtube.com/embed/kXYiU_JCYtU"
+    allowfullscreen></iframe>
+
+    <br><br>
+    <a href="#topo">Voltar ao topo</a>
+</section>
+
+<section id="vimeo">
+    <img src="vimeo.png" width="200">
+    <h2>3 Vídeos Vimeo</h2>
+
+    <iframe src="https://player.vimeo.com/video/76979871"
+    width="400" height="250"></iframe>
+
+    <br><br>
+
+    <iframe src="https://player.vimeo.com/video/22439234"
+    width="400" height="250"></iframe>
+
+    <br><br>
+
+    <iframe src="https://player.vimeo.com/video/146022717"
+    width="400" height="250"></iframe>
+
+    <br><br>
+    <a href="#topo">Voltar ao topo</a>
+</section>
+
+</body>
+</html>
