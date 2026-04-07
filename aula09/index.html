@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 09</title>
+</head>
+<body>
+
+    <h1>Formulário</h1>
+
+    <form>
+
+        <table border="1" width="700">
+
+            <tr>
+                <td width="200">
+                    <label for="nome-usuario-01">Nome:</label>
+                </td>
+                <td width="500">
+                    <input type="text"
+                           name="nome-usuario"
+                           id="nome-usuario-01"
+                           size="40"
+                           maxlength="30"
+                           placeholder="Digite seu nome"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           size="40"
+                           maxlength="30"
+                           placeholder="Digite seu email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email2">Email (pattern):</label>
+                </td>
+                <td>
+                    <input type="email"
+                           id="email2"
+                           name="email2"
+                           size="40"
+                           maxlength="30"
+                           placeholder="Digite outro email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="senha">Senha:</label>
+                </td>
+                <td>
+                    <input type="password"
+                           id="senha"
+                           name="senha"
+                           size="40"
+                           maxlength="30"
+                           placeholder="Digite uma senha">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="idade">Idade:</label>
+                </td>
+                <td>
+                    <input type="number"
+                           id="idade"
+                           name="idade"
+                           size="40"
+                           placeholder="Digite sua idade">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <textarea name="comentarios"
+                              cols="40"
+                              rows="5"
+                              placeholder="Deixe um comentário:"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Matéria de interesse:
+                    <br><br>
+
+                    <input type="checkbox" name="Backend" value="Backend"> Backend
+                    <br>
+
+                    <input type="checkbox" name="Frontend" value="Frontend"> Frontend
+                    <br>
+
+                    <input type="checkbox" name="Fullstack" value="Fullstack"> Fullstack
+                </td>
+
+                <td>
+                    Tipo de Viagem:
+                    <br><br>
+
+                    <input type="checkbox" name="Negocio" value="Negocio"> Negócio
+                    <br>
+
+                    <input type="checkbox" name="lazer" value="lazer"> Lazer
+                    <br>
+
+                    <input type="checkbox" name="Turismo" value="Turismo"> Turismo
+                    <br>
+
+                    <input type="checkbox" name="Academico" value="Academico"> Acadêmico
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="esporte">Esporte Favorito:</label>
+                    <br><br>
+
+                    <select name="esporte" size="5">
+                        <option value="">Selecione</option>
+                        <option value="Futebol">Futebol</option>
+                        <option value="Basquete">Basquete</option>
+                        <option value="Volei">Vôlei</option>
+                        <option value="Tenis">Tênis</option>
+                    </select>
+                </td>
+
+                <td>
+                    <label for="investimentos">Investimentos:</label>
+                    <br><br>
+
+                    <select name="investimentos" size="1">
+                        <option value="">Selecione</option>
+                        <option value="Poupança">Poupança</option>
+                        <option value="Fundos Imobiliarios">Fundos Imobiliários</option>
+                        <option value="CDI">CDI</option>
+                        <option value="Criptomoedas">Criptomoedas</option>
+                        <option value="Tesouro Direto">Tesouro Direto</option>
+                        <option value="Ações">Ações</option>
+                    </select>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
