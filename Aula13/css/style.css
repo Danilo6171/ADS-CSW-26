@@ -1,0 +1,128 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+.home{
+    display: flex;
+    border: 4px solid black;
+    padding: 10px;
+    border-radius: 12px;
+    width: 75px;
+}
+
+.flex{
+    gap: 20px;
+    display: flex;
+    padding: 25px;
+    border-radius: 15px;
+    width: 700px;
+    border: 12px solid rgb(15, 13, 13);
+}
+.teste1{
+    flex-grow: 1;
+    border-radius: 12px;
+    color: white;    transition: all 0.3s ease;
+    padding: 25px;
+    background-color: black;
+    gap: 20px;
+
+    
+}
+.teste1:hover{
+    background-color: blue;
+    text-decoration: underline;
+}
+.teste2{
+    color: white;
+    flex-grow: 1;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    padding: 25px;
+    background-color: black;
+    
+}
+.teste2:hover{
+    background-color: red;
+    text-decoration: underline;
+}
+.teste3{
+    flex-grow: 1;
+    border-radius: 12px;
+    color: white;
+    transition: all 0.3s ease;
+    padding: 25px;
+    background-color: black;
+
+    
+}
+.teste3:hover{
+    background-color: green;
+    text-decoration: underline;
+}
+
+.aids1{
+    flex-grow: 1;
+    border-radius: 12px;
+    color: white;
+    padding: 25px;
+    background-color: black;
+    border: 4px solid red;
+
+}
+.aids2{
+    flex-grow: 1;
+    border-radius: 12px;
+    color: white;
+    padding: 25px;
+    background-color: black;
+    border: 4px solid red;
+
+}
+.aids3{
+    flex-grow: 3;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    border: 4px solid red;
+
+}
+.aids3:active{
+    background-color: red;
+
+}
+.aids4{
+    flex-grow: 1;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    border: 4px solid red;
+
+}
+
+.aids5{
+    flex-grow: 1;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    border: 4px solid red;
+
+}
+.flex1{
+    display: flex;
+    justify-content: flex-end;
+    border: 8px solid white;
+}
+
+.ebola{
+    justify-content: flex-end; 
+    border: 4px solid rgb(236, 195, 117);
+    border-radius: 12px;
+    padding: 8px;
+
+}
