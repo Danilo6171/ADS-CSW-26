@@ -8,6 +8,8 @@ body{
   justify-content: center; 
   gap: 20px;           
   padding: 20px;
+  transform: translatey(250px);
+
 }
 .card {
   background-color: #fff;
