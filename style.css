@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #030303;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.caixa {
+    background-color: orange;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+
+input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+
+button {
+    width: 100%;
+    background-color: #141b24;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+
+button:hover {
+    background-color: #022347;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000; 
+    font-weight: 500;
+}
+
